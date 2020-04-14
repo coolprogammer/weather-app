@@ -3,7 +3,7 @@
     <div class="col-sm-4" *ngFor="let city of Cities">
         <div class="card mb-3">
             <div class="card-body">
-                 <a [routerLink]="['/city-detail/', city.name]" class="btn btn-primary">{{city.name}}t</a>
+                 <a [routerLink]="['/weather/', city.name]" class="btn btn-primary">{{city.name}}</a>
             </div>
         </div>
     </div>
